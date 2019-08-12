@@ -7,7 +7,7 @@ Table_ Table(string id, int value, struct table *tail)
     t->id = id;
     t->value = value;
     t->tail = tail;
-    return ;
+    return;
 }
 
 A_stm A_CompoundStm(A_stm stm1, A_stm stm2)
